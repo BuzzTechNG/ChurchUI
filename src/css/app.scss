@@ -1,0 +1,49 @@
+// app global css in SCSS form
+@keyframes br_animation{
+20%{
+    transform: scale(1.1);
+}
+50%{
+  transform: scale(1.2) translateX(20px) translateY(30px);
+//   transform: translateX(40px);  
+//   transform: translateY(50px);  
+}
+
+80%{
+    transform: scale(1.2) translateX(-10px) translateY(-10px);
+}
+}
+.breadcrumb_area{
+    margin-top: -50px;
+    position: relative;
+    height: 35vh
+}
+.br_image{
+    position: absolute;
+    align-self: center;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    animation-name: br_animation;
+    animation-duration:  20s; 
+   animation-iteration-count: infinite; 
+   animation-timing-function: ease-in-out;
+}
+
+.ml-auto{
+    margin:0  auto ;
+}
+.align-self-center{
+    align-self:center
+}
+.xpadding{
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 0 15px;
+}
+@media screen and (max-width: 400px) {
+ .xpadding{
+    padding: 0 0px;
+}   
+}

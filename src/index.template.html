@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.productName %></title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.productDescription %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (htmlWebpackPlugin.options.ctx.mode.cordova || htmlWebpackPlugin.options.ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+    <!-- imports -->
+    <!-- <link type="text/css" rel="stylesheet" href="statics/css/bootstrap.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="statics/css/bt-navbar.css">
+        <link  rel="stylesheet" href="statics/vendors/linericon/style.css">
+        <link  rel="stylesheet" href="statics/css/font-awesome.min.css">
+        <!-- <link
+        rel="stylesheet"
+        href="statics/css/animate.min.css"
+      /> -->
+        <link  rel="stylesheet" href="statics/vendors/owl-carousel/owl.carousel.min.css">
+        <link  rel="stylesheet" href="statics/vendors/lightbox/simpleLightbox.css">
+        <link  rel="stylesheet" href="statics/vendors/nice-select/css/nice-select.css">
+        <!-- main css -->
+        <link  rel="stylesheet" href="statics/css/style.css">
+        <link  rel="stylesheet" href="statics/css/responsive.css">
+    <!--import ends  -->
+    <link rel="icon" type="image/png" sizes="128x128" href="statics/icons/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="statics/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="statics/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="statics/icons/favicon-16x16.png">
+    <link rel="icon" type="image/ico" href="statics/icons/favicon.ico">
+  </head>
+  <body>
+    <script src="statics/js/jquery-3.2.1.min.js"></script>
+    <script src="statics/js/popper.js"></script>
+    <script src="statics/js/bootstrap.min.js"></script>
+    <script src="statics/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="statics/js/jquery.ajaxchimp.min.js"></script>
+    <!-- <script src="statics/js/mail-script.js"></script>
+     <script src="statics/js/mail-script.js"></script>  -->
+    <script src="statics/js/stellar.js"></script>
+    <script src="statics/vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="statics/vendors/flipclock/timer.js"></script>
+    <script src="statics/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="statics/js/custom.js"></script>
+    <script src="statics/js/wow.min.js"></script>
+    <script src="statics/js/particles.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <!-- DO NOT touch the following DIV -->
+    <div id="q-app"></div>
+  
+  </body>
+</html>
